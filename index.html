@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
+    .nav-link.active{
+        color: red !important;
+    }
+</style>
+<body data-bs-target="#nav-scroll" data-bs-spy="scroll">
+    <section>
+        <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top" id="nav-scroll" >
+            <div class="container">
+                <a href="" class="navbar-brand">Portfolio</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target='#navBar'>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navBar">
+                    <ul class="navbar-nav ms-auto fw-bold">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#About" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#BLOG" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="home" class="d-flex min-vh-100 flex-column justify-content-center align-items-center"
+        style="background-image: url(images/hero-bg.jpg);">
+        <h1 class="fw-bold display-1 mb-3 ">MADAM CURRY</h1>
+        <h6 class="fs-2 text-secondary text-capitalize mb-4">I'm a professional back-end developer</h6>
+        <a href="#About" class="btn btn-danger rounded-pill">About Me</a>
+    </section>
+    <section id="About" class="container py-5">
+        <div class="text-center">
+            <h2 class="fw-bolder text-uppercase ">about</h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, cum? Laudantium sunt, maxime cum enim
+                sit
+                unde accusamus facilis deleniti?</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="images/about.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-7 offset-lg-1">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusantium, in, aliquam, quos
+                    sunt
+                    doloribus modi natus dolor et voluptatem quibusdam ipsa voluptatibus! Odio fugit accusamus
+                    aspernatur
+                    veniam dolore pariatur? Ab odit facere dolores enim! Eaque, voluptatibus ratione. Commodi aperiam ea
+                    nam
+                    alias hic laborum quos temporibus nemo vitae rerum?
+                <p class="fw-bold fs-4">My skills</p>
+                <p>HTML :</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning progress-bar-striped " style="width:90% ">90%</div>
+                </div>
+                <p>CSS :</p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped " style="width: 60%">60%</div>
+                </div>
+                <p>C SHARP :</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info progress-bar-striped " style="width:80% ">80%</div>
+                </div>
+                <p>BOOTSTRAP :</p>
+                <div class="progress">
+                    <div class="progress-bar bg-success progress-bar-striped " style="width:90% ">90%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="bg-dark py-5 pb-5">
+        <div class="container">
+            <div class="text-center py-5 text-white">
+                <h2 class="fw-bolder">MY PORTFOLIO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, magnam?</p>
+            </div>
+            <div class="row  ">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <img src="images/img1.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <img src="images/img2.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <img src="images/img3.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <img src="images/img4.jpg " class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <img src="images/img5.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <img src="images/img6.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="BLOG" class=" py-5 pb-5">
+        <div class="container">
+            <div class="text-center py-5 ">
+                <h2 class="fw-bolder">MY BLOG</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, magnam?</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="images/img7.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">
+                                Lorem ipsum dolor sit amet.
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at illum natus sequi
+                                explicabo, adipisci saepe et. Vero, labore enim.
+                            </p>
+                            <a href="#" class="btn btn-transparent">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/img5.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at
+                                illum natus sequi explicabo, adipisci saepe et. Vero, labore enim.</p>
+                            <a href="#" class="btn btn-light">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/img6.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at
+                                illum natus sequi explicabo, adipisci saepe et. Vero, labore enim.</p>
+                            <a href="#" class="btn btn-light">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact" class="bg-dark py-5">
+        <div class="container">
+            <div class="text-center py-5 text-white">
+                <h2 class="fw-bolder "> CONTACT ME</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem!</P>
+            </div>
+            <div class=" col-11 col-sm-10 col-md-9 col-lg-8 col-xl-6 col-xxl-5 mx-auto">
+                <form action="">
+                    <div class="mb-3text-white ">
+                        <label for="name" class="form-label">YOUR NAME: </label>
+                        <INPUT type="text" class="form-control"></INPUT>
+                    </div>
+                </form>
+                <form action="">
+                    <div class="mb-3 text-white">
+                        <label for="email" class="form-label">YOUR EMAIL: </label>
+                        <INPUT type="text" class="form-control"></INPUT>
+                    </div>
+                </form>
+                <form action="">
+                    <div class="mb-3 text-white">
+                        <label for="subject" class="form-label">YOUR SUBJECT: </label>
+                        <INPUT type="text" class="form-control"></INPUT>
+                    </div>
+                </form>
+                <form action="">
+                    <div class="mb-3 text-white ">
+                        <label for="MESSAGE" class="form-label">YOUR MESSAGE: </label>
+                        <textarea name="MESSAGE" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                </form>
+                <button class="btn-border-warning btn btn-success rounded-pill " data-bs-target="#ourModal"
+                    data-bs-toggle="modal">SEND MESSAGE</button>
+                <div class="modal fade" id="ourModal" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Your message has been sent!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <p class="mb-0 py-3 fs-5 text-secondary"> @ All rights reserved by
+                <a href="https://finexoclub.github.io/Finexo/" target="_blank"
+                    class="fst-italic text-success">finexoclub</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
